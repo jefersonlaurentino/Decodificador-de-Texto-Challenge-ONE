@@ -1,6 +1,6 @@
 # Decodificador-de-Texto-Challenge-ONE
 
-Este é um projeto simples de codificação de texto que permite criptografar e descriptografar palavras com base em um parâmetro. O projeto foi desenvolvido como parte do Challenge ONE Iniciante em Programação da Oracle + Alura.
+Este é um projeto simples de codificação de texto desenvolvido em JAVASCRIPT, HTML E CSS. Ele permite criptografar e descriptografar palavras com base em um parâmetro. O projeto foi desenvolvido como parte do Challenge ONE Iniciante em Programação da Oracle + Alura.
 
 ## Instalação
 
