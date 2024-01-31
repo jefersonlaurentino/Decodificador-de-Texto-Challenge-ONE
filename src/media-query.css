@@ -1,0 +1,102 @@
+
+/* melhoria na tela de celulares com height maior que 672px*/
+
+@media screen and (min-height: 672px) {
+    .campo_cripto {
+        margin-bottom: 3rem;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+    }
+}
+
+/* tela de tablet */
+
+@media screen and (max-width: 768px) and (min-width:380px){
+    .campo_button {
+        flex-direction: row;
+    }
+
+    .div_text {
+        margin: 4vh 0 20vh 0;
+    }
+
+    .campo_button > button {
+        width: 100%;
+        margin-right: .5rem;
+    }
+
+    .campo_cripto {
+        margin-bottom: 3rem;
+    }
+}
+
+/* tela de desktop */
+
+@media screen and (min-width: 769px){
+    body {
+        font-size: 1.2em;
+    }
+    header , main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    main {
+        display: flex;
+        position: relative;
+        padding: 0 1rem; 
+    }
+    
+    .div_text {
+        margin: 10vh 0;
+        height: 45vh;
+    }
+
+    .part_cripto {
+        width: 60%;
+    }
+
+    .campo_button {
+        flex-direction: row;
+    }
+
+    .campo_button > button {
+        width: 100%;
+        margin: .5rem;
+    }
+
+    .campo_cripto {
+        flex-direction: column;
+        position: absolute;
+        padding-top: 2rem;
+        right: 1rem;
+        top: -3.5rem;
+        width: 30%;
+        height: 85vh;
+    }
+
+    #btn_copy {
+        position: absolute;
+        bottom: 1rem;
+        width: 90%;
+    }
+
+    .texto > img {
+        display: block;
+        margin: 4rem auto;
+        width: 60%;
+    }
+
+    #alert_copy {
+        left: 40%;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+    }
+}

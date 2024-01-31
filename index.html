@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeficador e Decodificador de texto</title>
+
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/media-query.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="src/img/Top.svg" alt="Logo da alura">
+        </div>
+    </header>
+
+    <main>
+        <div class="part_cripto">
+            <div class="div_text">
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Digite seu texto aqui"></textarea>
+            </div>
+            <p class="atencao"><img src="src/img/error_FILL0_wght400_GRAD0_opsz24.svg" alt="atenção">Apenas letras minúsculas e sem acento.</p>
+            <div class="campo_button">
+                <button id="btn_cripto" class="btn">Criptografar</button>
+                <button id="btn_descripto" class="btn">Descriptografar</button>
+            </div>
+        </div>
+
+        <div class="campo_cripto">
+            <div class="texto">
+                <img src="src/img/High quality products 1 1.svg" alt="">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que voçê desseja criptografar ou descriptografar.</p>
+            </div>
+            <button class="btn" id="btn_copy" style="display: none;">Copiar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desafio criado por <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer">Aluta</a> + <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank" rel="noopener noreferrer">ONE</a> e desenvouvido por &copy;<a href="https://github.com/jefersonlaurentino" target="_blank" rel="noopener noreferrer">Jeferson Laurentino</a></p>
+    </footer>
+
+    <div id="alert_copy"></div>
+
+    <script src="decodificador.js"></script>
+</body>
+</html>
