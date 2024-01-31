@@ -6,6 +6,10 @@ Este é um projeto simples de codificação de texto desenvolvido em JAVASCRIPT,
 
 Não é necessária instalação para este projeto. Basta clonar o repositório e abrir o arquivo `index.html` em um navegador da web.
 
+# Video demostrativo
+
+https://github.com/jefersonlaurentino/Decodificador-de-Texto-Challenge-ONE/assets/128257769/9c9bad2f-702c-4a69-bbf9-3e12a3b77bfc
+
 # EXEMPLO DE PARÂMETROS UTILIZADOS
 As "chaves" de criptografia que utilizaremos são: <br>
 A letra "e" é convertida para "enter" <br>
