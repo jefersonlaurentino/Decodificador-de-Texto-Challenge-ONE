@@ -4,7 +4,7 @@ Este é um projeto simples de tradução de texto desenvolvido em JAVASCRIPT, HT
 
 ## Instalação
 
-Não é necessária instalação para este projeto. Basta clonar o repositório e abrir o arquivo ` index.html ` em um navegador da web.
+Não é necessária instalação para este projeto. Basta clonar o repositório e abrir o arquivo ` index.html ` em um navegador da web. ou acesse o github-pages https://jefersonlaurentino.github.io/Decodificador-de-Texto-Challenge-ONE/
 
 # Vídeo demonstrativo
 
@@ -18,7 +18,7 @@ A letra "a" é convertida para "ai" <br>
 A letra "o" é convertida para "ober" <br>
 A letra "u" é convertida para "ufat" <br>
 
-# pró-exemplo 
+# pro exemplo 
 Palavra: exemplo <br>
 Ação: criptografar <br>
 Resultado: enterxentermplober <br>
